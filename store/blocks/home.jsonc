@@ -1,7 +1,17 @@
 {
   "store.home": { 
     "blocks": [
-      
+      "rich-text"
     ]
+  },
+  "rich-text": {
+    "props":{
+      "textAlignment": "RIGHT",
+      "textPosition": "CENTER",
+      "text": "*Hello, World*",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
   }
 }
